@@ -1,0 +1,52 @@
+.navbar{
+    color: orange;
+    height: 500px;
+    height: auto;
+}
+.hi{
+    font-weight: 500;
+}
+.first{
+    text-decoration: 2px red underline;
+}
+.second{
+    text-decoration: none;
+}
+a{
+    margin-right: 200px;
+}
+button{
+    background-color: orange;
+    border-radius: 10px;
+}
+div{
+    border: 40px solid yellow;
+
+}
+#hibuddy{
+    height: 500px;
+}
+.box11{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(200,0, 0, 0.5);
+    display:inline;
+
+}
+.box11{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(20,200, 0, 0.5);
+    display:inline;
+}
+.box11{
+    height: 300px;
+    width: 300px;
+    background-color: rgba(20,30, 20, 0.5);
+    display:inline;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+}

@@ -1,0 +1,28 @@
+body{
+    background-color: brown;
+}
+.color{
+    color: rgb(155, 28, 28);
+    background-color: blue;
+    display: inline;
+
+}
+p{
+   color: cadetblue;
+   display: flex;
+   height: 24px;
+   padding: 200px 100px 200px 100px;
+
+}
+button{
+    color: white;
+    background-color: red;
+}
+#aman{
+    color: pink;
+    border: 20px dotted blue ;
+}
+.my{
+    text-align: center;
+
+}

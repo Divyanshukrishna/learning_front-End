@@ -1,0 +1,17 @@
+h1{
+    text-transform: capitalize;
+    text-decoration: red underline;
+    border: 2px solid red;
+    width: 155px;
+    text-align: center;
+
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+#outer{
+    font-weight: 450;
+}
+#inner{
+    font-weight: 600;
+}

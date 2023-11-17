@@ -1,0 +1,20 @@
+.hi{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+}
+.navbar{
+  border: 20px solid blue;
+  background-color: black;
+  height: 60px;
+  color: white;
+   
+}
+button{
+    background-color: rgb(246, 163, 10);
+    
+}
+a{
+    margin-right: 160px;
+}
