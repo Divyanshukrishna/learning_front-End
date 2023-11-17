@@ -1,0 +1,13 @@
+body{
+    background:rgb(97, 15, 15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    font-size: 24px;
+    text-align: center;
+    color: aliceblue;
+}
+.description {
+    transition: 0.9s ease-in-out;
+}

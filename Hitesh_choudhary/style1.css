@@ -1,0 +1,64 @@
+color-hover{
+    position: absolute;
+    display: flex;
+    float: auto;
+
+
+    
+}
+.red{
+  background: rgb(157, 40, 40);
+  padding: 12px 12px 12px 12px;
+  /* display: flex; */
+  max-width: 90px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.violet{
+    background: rgb(67, 13, 67);
+    padding: 12px 12px 12px 12px;
+  /* display: flex; */
+  max-width: 90px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.orange{
+    background: rgb(174, 132, 53);
+    padding: 12px 12px 12px 12px;
+  /* display: flex; */
+  max-width: 90px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.cyan{
+    background: rgb(30, 105, 105);
+    padding: 12px 12px 12px 12px;
+    /* display: flex; */
+    max-width: 90px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.pink{
+    background-color: rgb(109, 26, 40);
+    padding: 12px 12px 12px 12px;
+    /* display: flex; */
+    max-width: 90px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.green{
+    background: rgb(42, 72, 42);
+    padding: 12px 12px 12px 12px;
+    /* display: flex; */
+    max-width: 90px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
