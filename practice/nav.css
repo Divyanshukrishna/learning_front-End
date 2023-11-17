@@ -1,0 +1,39 @@
+
+li, a, button{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+     font-size: 500;
+     background-color: grey;
+     color: white;
+     text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.logo{
+    cursor: pointer;
+}
+.nav{
+    list-style: none;
+    transition: all 0.3s ease 0s;
+}
+.nav li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+nav li a:hover{
+    color: lightblue;
+}
+button{
+    padding: 9px 25px;
+    background-color: rgb(121, 81, 6);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: red;
+}
