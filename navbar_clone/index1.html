@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Try to make navbar</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            cursor: pointer;
+            
+        }
+        .container{
+            background-color: black;
+            overflow: hidden;
+        }
+        .container a{
+            text-decoration: none;
+            float: left;
+            padding: 15px 17px;
+            color: white;
+            flex-wrap: wrap;
+            font-size: 17px;
+            /* border: 2px solid red; */
+
+        }
+        .container a.active{
+            background-color: green;
+            color: wheat;
+
+        }
+        a:hover{
+            background-color: blue;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    
+    <nav>
+        <div class="container">
+            <a class="active" href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+            <a href="#us">Us</a>
+        </div>
+    </nav>
+
+
+
+
+
+
+</body>
+</html>
