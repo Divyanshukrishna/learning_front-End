@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Property</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .box{
+            height: 133px;
+            width: 80vw;
+            padding: 3px;
+            margin: 3px;
+            border: 2px solid red;
+        }
+        .box1{
+            background-color: black;
+            position: relative;
+            z-index: 2;
+        }
+        .box2{
+            background-color: azure;
+            position: relative;
+            top: 0px;
+            right: 10px;
+            z-index: 2;
+        }
+        .box3{
+            background-color: blue;
+            position: absolute;
+            top: 40px;
+            right: 13px;
+        }
+        .box4{
+            background-color: purple;
+        }
+        .container{
+            padding: 43px;
+            margin: 40px;
+            border: 2px solid purple;
+            position: relative;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box1">box-1</div>
+        <div class="box box2">box-2</div>
+        <div class="box box3">box-3</div>
+        <div class="box box4">box-4</div>
+    </div>
+    
+
+</body>
+</html>
