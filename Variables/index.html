@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            /* border: 2px solid red; */
+
+        }
+        :root{
+            --primary-text-color:#222;
+            --secondary-text-color:#444;
+            --card-background-color:#fff;
+            --background-color:#eee;
+            --default-margin:20px;
+        }
+        .container{
+            min-height: 100vh;
+            padding: 40px;
+            /* --my-var:red; */
+            background-color: var(--background-color);
+        }
+        h1{
+            text-align: center;
+            background-color: var(--my-var);
+        }
+        .box{
+            /* --my-var:red; */
+            padding: var(--default-margin);
+            margin-block: 12px;
+            border-radius:12px; 
+            background-color: var(--card-background-color);
+        }
+        .box h2{
+            margin-bottom: 20px;
+            color: var(--primary-text-color);
+            text-align: center;
+            /* background-color: var(--my-var,green); */
+
+        } 
+        p{
+            color: var(--secondary-text-color);
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Nature Park</h1>
+        <div class="box">
+            <h2>Waterfalls</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi sint, facere omnis est dicta possimus blanditiis? Sit, tempore autem! Sapiente soluta quidem corporis exercitationem pariatur animi delectus molestias impedit atque?</p>
+        </div>
+        <div class="box">
+            <h2>Hills</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi sint, facere omnis est dicta possimus blanditiis? Sit, tempore autemolestias impedit atque?</p>
+        </div>
+        <div class="box">
+            <h2>Snow Mountains</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, tempore autem! Sapiente soluta quidem corporis exercitationem pariatur animi delectus molestias impedit atque?</p>
+        </div>
+    </div>
+
+
+</body>
+</html>
