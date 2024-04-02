@@ -1,0 +1,17 @@
+body{
+    background-color: white;
+}
+h1{
+    border: solid 2px limegreen;
+    background-color: turquoise;
+    color: red;
+}
+.first{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: blue;
+    border: solid 3px white;
+}
+.second{
+    color: pink;
+}

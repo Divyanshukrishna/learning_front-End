@@ -1,0 +1,17 @@
+body{
+    padding: none;
+    height: none;
+
+    font-size: 24px;
+}
+
+#first:hover{
+    background-color: black;
+} 
+#first{
+    /* background-color: orange; */
+    color: red;
+}
+.purple{
+    color: purple;
+}

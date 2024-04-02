@@ -1,0 +1,30 @@
+/* Position: Inline (highest specificity) */
+h1 {
+    color: red;
+  }
+  
+  /* Type (class) */
+  .title {
+    font-size: 3rem;
+  }
+  
+  /* Type (class) with ID */
+  .description {
+    font-style: italic;
+  }
+  #important-paragraph {
+    font-weight: bold;
+  }
+  
+  /* Type (class) with type selector */
+  .specific-class p {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Importance (ID > class) */
+  #important-paragraph {
+    color: blue;
+  }
+  .specific-class p {
+    color: green;
+  }
